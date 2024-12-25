@@ -65,8 +65,8 @@
                                     <h4>Pencarian Table Data Sedang</h4>
                                     
                                 </p>
-                                <form class="search-form" action="#" method="GET">
-                                    <input type="text" name="search" class="search-input" placeholder="Search..." />
+                                <form class="search-form" id="searchForm" method="GET">
+                                    <input type="text" name="search" class="search-input" id="searchQuery" placeholder="Search..." />
                                     <input type="submit" value="Cari" class="btn btn-success">
                                 </form>
                             </div> 
@@ -78,7 +78,7 @@
                                 Table Rekap Data "Sedang"
                             </div>
                             <div class="card-body">
-                                <iframe width="100%" height="500" src="https://lookerstudio.google.com/embed/reporting/793acdee-e3f4-4a86-a142-10a99917fb43/page/XePZE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+                                <iframe id="myIframe" width="100%" height="500" src="https://lookerstudio.google.com/embed/reporting/793acdee-e3f4-4a86-a142-10a99917fb43/page/XePZE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
                             </div>
                         </div>
                         
@@ -129,5 +129,6 @@
         <script src="assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
