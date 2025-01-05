@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
+  --bs-link-color: #000;
   --bs-link-hover-color: #0a58ca;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -3644,6 +3644,11 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none;
 }
+
+nav{
+  background-color: #a0d1fa;
+}
+
 
 .nav-link {
   display: block;
